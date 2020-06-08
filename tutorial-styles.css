@@ -1,0 +1,50 @@
+/* Fonts */
+
+
+/* General */
+
+a {
+    color: #FA8072;
+}
+
+/* Header */
+
+
+.container {
+    max-width: 1200px;
+    border: 1px solid #000000;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 5px 5px grey;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 5rem;
+}
+
+.round-img {
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    background-image: url("assets/yoda_sweater_square copy.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Content of CV */
+
+h3 {
+    color: #FA8072;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    
+}

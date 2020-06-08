@@ -1,0 +1,121 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poiret+One&display=swap');
+
+/* Font Reference
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poiret One', cursive;
+*/
+
+/* General */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: salmon;
+}
+
+a {
+    text-decoration: none;
+    color: salmon;
+}
+
+/* Header */
+
+.title {
+    border: 2px solid black;
+    background-color: salmon;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+}
+
+.outer-container {
+    display: flex;
+    width: 90%;
+    flex-flow: row wrap;
+    align-items: stretch;
+    align-content: space-between;
+    justify-content: space-around;
+    padding: .5rem;
+    margin: auto;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px #e17366;
+}
+
+.inner-container {
+    display: flex;
+    width: 90%;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-around;
+    padding: .5rem;
+    margin: auto;
+}
+
+.portfolio {
+    flex-flow: row no-wrap;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: .3em;
+}
+
+.center {
+    align-self: center;
+}
+
+.profile-pic {
+    background-image: url("assets/CC2A3170 copy 2.jpg");
+    width: 7rem;
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.item {
+    padding: .5rem;
+}
+
+.description {
+    width: 45%;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+/* Main Content */
+
+.section-title {
+    font-family: ;
+    font-size: ;
+    text-transform: uppercase;
+}
+
+.portfolio-project {
+    align-self: flex-start;
+}
+
+.school {
+    font-size: .9em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-text {
+    padding-left: 2rem;
+    align-self: flex-start;
+}
